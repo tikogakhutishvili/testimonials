@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Inter&family=Poppins:wght@200;400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 337px) {
+    
+    :root {
+        --purple: #733FC8;
+        --gray: #48556A;
+        --black: #19202D;
+        --lightgray:#F2F2F2;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+main {
+    display: grid;
+}
+
+.container1 {
+    display: grid;
+}
+.child {
+    display: grid;
+}
+.child > div {
+    border-radius: 8px;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+    margin-bottom: 24px;
+    padding: 26px 32px;
+}
+.daniel {
+    background-color: var(--purple);
+    width: 327px;
+    height: 444px;
+    background-image: url(./assets/“.svg);
+    background-repeat: no-repeat;
+    background-position: 199px 0px;
+}
+.jonathan {
+    width: 327px;
+    height: 240px;
+    background-color: var(--gray);
+}
+.jeanette {
+    background: #FFFFFF;
+    height: 222px;
+    width: 327px;
+}
+.patrick {
+    width: 327px;
+    height: 384px;
+    background-color: var(--black);
+}
+.container2 {
+    width: 327px;
+    height: 438px;
+    background: #FFFFFF;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+    border-radius: 8px;
+    padding: 26px 32px;
+}
+.name1 {
+    margin-bottom: 18px;
+}
+h1 {
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+}
+h2 {
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 11px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+h3 {
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+p {
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+.name1 {
+    display: flex;
+}
+.name1 > div {
+    display: grid;
+    margin-left: 17px;
+}
+.boys {
+    color: #FFFFFF;
+}
+.girls {
+    color: #48556A;
+}
+
+
+}

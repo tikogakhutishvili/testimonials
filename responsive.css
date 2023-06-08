@@ -1,0 +1,35 @@
+@media screen and (min-width:1100px) {
+    body {
+        margin: 0;
+    }
+    main {
+        display: flex;
+    }
+    .daniel {
+        width: 540px;
+        height: 282px;
+        background-position: 356px 0px;
+    }
+    .child {
+        display: flex;
+    }
+    .jonathan {
+        width: 255px;
+        height: 282px;
+    }
+    .child > div {
+        margin-right: 30px;
+    }
+    .jeanette {
+        width: 255px;
+        height: 266px;
+    }
+    .patrick {
+        width: 540px;
+        height: 266px;
+    }
+    .container2 {
+        width: 255px;
+        height: 572px;
+    }
+}
